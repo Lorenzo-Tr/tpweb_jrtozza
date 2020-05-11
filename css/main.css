@@ -1,10 +1,60 @@
-.bg {    
-    background-color: #cccccc;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/bg.jpg");
+
+@media (min-width: 1200px) {
+	.container-big{
+		max-width: 1280px;
+	}
 }
 
-body{
-    background-color: #000;
+#influence {
+	background-image:url(../img/bg.jpg);
+	background-position: center;
+    background-size: cover;
+    background-size: 150%;
+    background-position: 50% 50%;
+    height: 480px;
 }
+
+#influence h1{
+	color: #fff;
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-size: 51px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+
+#influence h2{
+	color: #ebdec2;
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 80px;
+	text-align: right;
+}
+
+#influence p{
+    color: #ebdec2;
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+    margin-top: 20px;
+	text-align: right;
+}
+
+a{
+    margin: 10px;
+    background: rgba(0,0,0,.4);
+    font-weight: 400;
+    color: #f7b10a;
+    text-transform: uppercase;
+    min-width: 180px;
+    border : 1px solid #c77e19;
+    transition: background .2s,color .2s;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    user-select: none;
+    padding: 20px;
+} 
