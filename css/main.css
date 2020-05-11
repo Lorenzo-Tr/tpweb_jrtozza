@@ -9,17 +9,15 @@
 	background-image:url(../img/bg.jpg);
 	background-position: center;
     background-size: cover;
-    background-size: 150%;
     background-position: 50% 50%;
     height: 480px;
 }
 
 #influence h1{
 	color: #fff;
-	font-family: Open Sans,Arial,Helvetica,sans-serif;
-	font-size: 51px;
-	font-weight: 400;
-	text-transform: uppercase;
+	font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+	font-size: 47px;
+	font-weight: 700;
 	text-align: right;
 }
 
