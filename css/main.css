@@ -1,30 +1,29 @@
-
 @media (min-width: 1200px) {
-	.container-big{
+	.container-big {
 		max-width: 1280px;
 	}
 }
 
 #influence {
-	background-image:url(../img/bg.jpg);
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
 	background-position: center;
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 480px;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 480px;
 }
 
-#influence h1{
+#influence h1 {
 	color: #fff;
-	font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
 	font-size: 47px;
 	font-weight: 700;
 	text-align: right;
 }
 
 
-#influence h2{
+#influence h2 {
 	color: #ebdec2;
-	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -32,43 +31,85 @@
 	text-align: right;
 }
 
-#influence p{
-    color: #ebdec2;
-    font-family: Open Sans,Arial,Helvetica,sans-serif;
+#influence p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
 	font-size: 17.28px;
 	font-weight: 400;
-    margin-top: 20px;
+	margin-top: 20px;
 	text-align: right;
 }
 
-a{
-    cursor: pointer;
-    text-decoration: none;
-} 
-
-a:hover{
+a {
+	cursor: pointer;
 	text-decoration: none;
 }
 
-#influence a{
-	font-weight: 400;
-	text-transform: uppercase;
-    background: rgba(0,0,0,.4);
-    color: #f7b10a;
-	border : 1px solid #c77e19;
-	min-width: 180px;
-    transition: background .2s,color .2s;
-    text-align: center;
-    user-select: none;
-    padding: 12px 30px;
+a:hover {
+	text-decoration: none;
 }
 
-.button-container{
+#influence a {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, .4);
+	color: #f7b10a;
+	border: 1px solid #c77e19;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+}
+
+#influence .button-container {
 	margin-top: 20px;
 	padding: 12px;
 }
 
-#influence a:hover{
+#influence a:hover {
 	background: #b06601;
 	color: #ffd36b;
+}
+
+.divider {
+	height: 5px;
+	position: relative;
+	background-color: #000;
+	width: 100%;
+}
+
+#avenement {
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/LU2VY3R9P1L01586989638352.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 480px;
+}
+
+#avenement h1 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 47px;
+	font-weight: 700;
+	text-align: left;
+}
+
+#avenement h2 {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 80px;
+	text-align: left;
+}
+
+#avenement p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: left;
 }
