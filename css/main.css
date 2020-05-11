@@ -48,6 +48,8 @@ body{
 a {
 	cursor: pointer;
 	text-decoration: none;
+	display: inline-block;
+	outline: solid 1px #000;
 }
 
 a:hover {
@@ -311,6 +313,27 @@ a:hover {
 	background-color: #170e09;
 }
 
+.Separator>:after, .Separator>:before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    position: absolute;
+    background: #000;
+    z-index: 1;
+}
+
+#maj::after{
+	content: "";
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    position: absolute;
+    background: #000;
+	z-index: 1;
+	right: 0;
+}
+
 #pannel #maj .pannel-bg{
 	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/SE58SPP78TP01579050179053.jpg);
 	background-position: center;
@@ -320,6 +343,7 @@ a:hover {
 }
 
 #pannel .pannel-area{
+	border-top: 1px solid #504137;
 	padding: 20px 30px;
 	text-align: center;
 }
