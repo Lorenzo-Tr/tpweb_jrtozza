@@ -1,5 +1,6 @@
 body{
 	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	background-color: #000;
 }
 
 @media (min-width: 1200px) {
@@ -220,3 +221,123 @@ a:hover {
 	background: #b06601;
 	color: #ffd36b;
 }
+
+#roiliche{
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/AQHP5IWDPPAU1578644061798.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 480px;
+}
+
+#roiliche h1 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 47px;
+	font-weight: 700;
+	text-align: left;
+}
+
+#roiliche h2 {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 80px;
+	text-align: left;
+}
+
+#roiliche p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: left;
+}
+
+#roiliche a {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, .4);
+	color: #f7b10a;
+	border: 1px solid #c77e19;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+	margin: 10px;
+}
+
+#roiliche .button-container {
+	margin-top: 20px;
+	margin-left: -10px;
+	padding: 12px 12px 12px 0px;
+}
+
+#roiliche a:hover {
+	background: #b06601;
+	color: #ffd36b;
+}
+
+#roiliche a.red {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(159,22,0,.6);
+	color: #f7b10a;
+	border: 1px solid #ea3012;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+	margin: 10px;
+}
+
+#roiliche a.red:hover {
+	background: #9f1600;
+	color: #ffd36b;
+}
+
+.pannel{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 494px;
+	border: 1px solid #504137;
+	background-color: #170e09;
+}
+
+#pannel #maj .pannel-bg{
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/SE58SPP78TP01579050179053.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	max-height: 375px;
+}
+
+#pannel .pannel-area{
+	padding: 20px 30px;
+	text-align: center;
+}
+
+#pannel .pannel-area h1{
+	color: #f8b700;
+	font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif; 
+	font-size: 35.832px;
+	font-weight: 700;
+}
+
+#pannel .pannel-area h2{
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+
