@@ -317,50 +317,48 @@ a:hover {
 	padding: 0;
 }
 
+#pannel .col-6{
+	flex-basis: 49.87%;
+}
+
 #pannel .row{
-	flex-basis: 49%;
+	justify-content: space-between;
 }
 
 .pannel{
 	display: block;
 	position: relative;
 	overflow: hidden;
-	height: 494px;
 	border: 1px solid #504137;
 	background-color: #170e09;
-	
+	transition: all .25s cubic-bezier(.23,1,.32,1) 0s;
 }
 
-.separatorl::after{
-	content: "";
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    position: absolute;
-    background: #000;
-	z-index: 1;
-	right: 0;
-}
-
-.separatorr::after{
-	content: "";
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    position: absolute;
-    background: #000;
-	z-index: 1;
-	left: 0;
+#pannel a:hover .pannel{
+	border: 1px solid #f8b700;
 }
 
 #pannel .pannel-bg{
 	background-position: center;
 	background-size: cover;
-	padding-top: 375px;
+
+	padding-top: 40%;
 }
 
 #maj .pannel-bg{
 	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/SE58SPP78TP01579050179053.jpg);
+}
+
+#correctifs .pannel-bg{
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/S9EEQMBOXCEL1561500950256.jpg);	
+}
+
+#newplayer .pannel-bg{
+	background-image: url(http://bnetcmsus-a.akamaihd.net/cms/template_resource/30WZ1HGMZU5C1463691816866.jpg);	
+}
+
+#azeroth .pannel-bg{
+	background-image: url(http://bnetcmsus-a.akamaihd.net/cms/template_resource/C96JQLGPQKLA1463691818913.jpg);	
 }
 
 #pannel .pannel-area{
