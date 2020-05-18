@@ -326,9 +326,6 @@ a:hover {
 }
 
 .pannel{
-	display: block;
-	position: relative;
-	overflow: hidden;
 	border: 1px solid #504137;
 	background-color: #170e09;
 	transition: all .25s cubic-bezier(.23,1,.32,1) 0s;
@@ -341,7 +338,6 @@ a:hover {
 #pannel .pannel-bg{
 	background-position: center;
 	background-size: cover;
-
 	padding-top: 40%;
 }
 
